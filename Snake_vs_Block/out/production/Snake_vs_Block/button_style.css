@@ -1,0 +1,96 @@
+/*.leader{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-font-family: "Cooper Black";
+    -fx-padding: 10 20 10 20;
+}
+.leader:hover{
+    -fx-background-color:
+    linear-gradient(#ffef84, #e67e22),
+    linear-gradient(#ffea6a, #e67e22),
+    linear-gradient(#ffe657 0%, #f8c202 50%, #e67e22 100%),
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,200,0));
+}*/
+
+.Head{
+    -fx-font-smoothing-type: lcd;
+    -fx-font-size: 30px;
+    -fx-font-family: "Cooper Black";
+}
+.scene1{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 460 750;
+    -fx-background-position: center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.leader{
+    -fx-background-color: transparent;
+    -fx-background-image: url("Leader.png");
+    -fx-background-position: center;
+}
+.leader:hover{
+    -fx-background-image: url("Leader2.png");
+}
+
+.play{
+    -fx-background-color: transparent;
+    -fx-background-image: url("PlayButton.png");
+    -fx-background-position: center;
+}
+.play:hover{
+    -fx-background-image: url("PlayButton2.png");
+}
+.return{
+    -fx-background-color: transparent;
+    -fx-background-image: url("Back_Button.png");
+    -fx-background-position: center;
+}
+.return:hover{
+    -fx-background-image: url("Back_Button2.png");
+}
+.instruction{
+    -fx-background-color: transparent;
+    -fx-background-image: url("Info.png");
+    -fx-background-position: center;
+}
+.instruction:hover{
+    -fx-background-image: url("Info2.png");
+}
+.Information{
+    -fx-background-image: url("infopage.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 460 750;
+    -fx-background-position: center;
+}
+.exit{
+    -fx-background-color: transparent;
+    -fx-background-image: url("exit.png");
+    -fx-background-position: center;
+}
+.exit:hover{
+    -fx-background-image: url("exit2.png");
+}
+
+.leaderboardTable{
+    -fx-background-color: transparent;
+}
+.LeaderBoard{
+    -fx-background-image: url("LeaderBoards.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 460 750;
+    -fx-background-position: center;
+}
+.canvas{
+    -fx-background-color: black;
+}
